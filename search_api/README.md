@@ -3,8 +3,11 @@
 The purpose of this repository is to create a light-weight server-side
 application to show the efficacy of social media data driving business needs.
 
-The two directories represent GET and POST request-accepting Node.js servers.
-The `server.js` is where the server is defined.
+The two directories represent
+[`GET`](https://github.com/NNaka/gnip/tree/master/search_api/GetRequest) and
+[`POST`](https://github.com/NNaka/gnip/tree/master/search_api/PostRequest)
+request-accepting Node.js servers.  The `server.js` is where the server is
+defined.
 
 ## Node.js
 
@@ -19,8 +22,13 @@ article - check it out.
 Make sure you have [Node.js](http://nodejs.org/) and the [Heroku
 Toolbelt](https://toolbelt.heroku.com/) installed.
 
-```sh $ git clone git@github.com:heroku/node-js-getting-started.git # or clone
-your own fork $ cd node-js-getting-started $ npm install $ npm start ```
+For server handling GET request:
+```sh $ git clone git@github.com:NNaka/gnip.git # or clone
+your own fork $ cd gnip/search_api/GetRequest $ npm install $ npm start ```
+
+For server handling POST request:
+```sh $ git clone git@github.com:NNaka/gnip.git # or clone
+your own fork $ cd gnip/search_api/PostRequest $ npm install $ npm start ```
 
 Your app should now be running on [localhost:5000](http://localhost:5000/).
 
