@@ -20,15 +20,17 @@ article - check it out.
 ## Running Locally
 
 Make sure you have [Node.js](http://nodejs.org/) and the [Heroku
-Toolbelt](https://toolbelt.heroku.com/) installed.
+Toolbelt](https://toolbelt.heroku.com/) installed.  Also, before running the
+```heroku local``` command, make sure to change the `url`, `UN`, and `PWD`
+fields in `server.js`.
 
 For server handling GET request:
 ```sh $ git clone git@github.com:NNaka/gnip.git # or clone
-your own fork $ cd gnip/search_api/GetRequest $ npm install $ npm start ```
+your own fork $ cd gnip/search_api/GetRequest $ npm install $ heroku local```
 
 For server handling POST request:
 ```sh $ git clone git@github.com:NNaka/gnip.git # or clone
-your own fork $ cd gnip/search_api/PostRequest $ npm install $ npm start ```
+your own fork $ cd gnip/search_api/PostRequest $ npm install $ heroku local```
 
 Your app should now be running on [localhost:5000](http://localhost:5000/).
 

@@ -1,6 +1,6 @@
 {
-  "name": "node-js-getting-started",
-  "version": "0.1.5",
+  "name": "PostRequest",
+  "version": "0.0.0",
   "description": "A sample Node.js app using Express 4",
   "main": "index.js",
   "scripts": {
@@ -8,9 +8,10 @@
   },
   "dependencies": {
     "body-parser": "latest",
-    "ejs": "2.3.3",
+    "btoa": "latest",
+    "ejs": "latest",
     "express": "4.13.3",
-    "mongodb": "latest",
+    "request": "latest",
     "validator": "latest"
   },
   "engines": {
@@ -18,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/node-js-getting-started"
+    "url": "https://github.com/NNaka/gnip/tree/master/search_api/PostRequest"
   },
   "keywords": [
     "node",
